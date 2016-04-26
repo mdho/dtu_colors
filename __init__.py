@@ -18,7 +18,3 @@ def lines(n):
     di = (len(idx)+1)//n
     return [secondary[i] for i in idx[::di][:n]]
     
-
-#print primary
-#print secondary
-
